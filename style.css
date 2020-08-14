@@ -965,7 +965,7 @@ img{
   display: inline-block;
   float: left;
   margin-left: 35px;
-  min-height: 100px;
+  min-height: 0px;
   width: 22%;
 }
 .single-doctor{
@@ -985,7 +985,7 @@ img{
 	background: #333;
 }
 .doctors-nav figure img {
-	 position: relative;
+	position: relative;
     display: block;
     width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
