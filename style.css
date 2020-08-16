@@ -944,7 +944,7 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
-	padding: 75px 0px;
+	padding:75px 0px;
 }
 .meetDoctors-area{
 	float: left;
@@ -2391,7 +2391,7 @@ a.gallery-iteam:hover .image-effect::before {
 }
 .my-simple-gallery figcaption {
   bottom: 0;
-  color: #fff;
+  color: #3e3e3e;
   display: block;
   font-size: 18px;
   font-weight: bold;
