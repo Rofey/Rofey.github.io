@@ -448,7 +448,8 @@ img{
 }
 .readmore_area {
   float: left;
-  margin-top: 40px;
+  /* To move Read more button */
+  margin-top: 200px;		
   position: relative;
   z-index: 1;
 }
@@ -2304,24 +2305,33 @@ width: 100%;
 }
 .my-simple-gallery {
   float: left;
-  margin-bottom: 20px;
+  /* margin-top: 150px;
+  margin-bottom: 20px; */
+  padding: 75px 0px;
   width: 100%;
 }
 .my-simple-gallery img {
   height: 100%;
   width: 100%;
 }
+
+/* Margin between images */
 .my-simple-gallery figure {
-  margin-bottom: 30px;
+  margin-bottom: 100px;							
 }
+
+
+
 .my-simple-gallery figure a {
   display: block;
   height: 240px;
   width: 100%;
 }
 .my-simple-gallery figcaption {
-  display: none;
+  display: display;
+  padding: 100px;
 }
+
 a.gallery-iteam img {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
     filter: alpha(opacity=95);
@@ -2389,7 +2399,7 @@ a.gallery-iteam:hover .image-effect::before {
     -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
     transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0)
 }
-.my-simple-gallery figcaption {
+/* .my-simple-gallery figcaption {
   bottom: 0;
   color: #3e3e3e;
   display: block;
@@ -2397,11 +2407,27 @@ a.gallery-iteam:hover .image-effect::before {
   font-weight: bold;
   left: 0;
   margin-top: -23px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
+
   position: absolute;
   text-align: center;
   width: 100%;
+} */
+
+
+
+
+.my-simple-gallery figcaption {
+	background-color: white;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 2px;
+	text-align: center;
+
 }
+
 .pswp__caption__center {
   font-size: 25px;
   text-align: center;
@@ -2661,9 +2687,15 @@ a.gallery-iteam:hover .image-effect::before {
   display: inline;
   float: left;
   width: 100%;
-  padding: 40px 0px 90px;
+  padding: 75px 0px;
 }
+
 .error-page-area{
+	float: left;
+	display: inline;
+	width: 100%;
+}
+/* .error-page-area{
 	float: left;
 	display: inline;
 	width: 100%;
@@ -2692,7 +2724,7 @@ a.gallery-iteam:hover .image-effect::before {
   float: none;
   margin: 0 auto;  
   margin-top: 40px;
-}
+} */
 
 #aboutUs{
 	float: left;
