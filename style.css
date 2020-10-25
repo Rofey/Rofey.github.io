@@ -833,8 +833,8 @@ img{
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
 	color: #fff;
-	display: inline-block;
-	font-size: 25px;
+	/* display: inline-block; */
+	font-size: 30px;
 	height: 68px;
 	line-height: 55px;
 	margin-right: 15px;
@@ -941,17 +941,18 @@ img{
 /* MEET DOCTORS */
 /*--------------------*/
 
-#meetDoctors{
+ #content{
 	float: left;
 	display: inline;
 	width: 100%;
 	padding:75px 0px;
 }
-.meetDoctors-area{
+.content-area{
 	float: left;
 	display: inline;
 	width: 100%;
 }
+/*
 .doctors-area {
   display: inline;
   float: left;
@@ -1067,17 +1068,17 @@ img{
 .doctors-nav figure button {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-}
+} */
 /* Style for SVG */
-.doctors-nav svg {
-	position: absolute;
-	top: -1px; /* fixes rendering issue in FF */
-	z-index: 10;
+/* .doctors-nav svg {
+	position: absolute; */
+	/*top: -1px;  fixes rendering issue in FF */
+	/* z-index: 10;
 	width: 100%;
 	height: 100%;
-}
+} */
 
-.doctors-nav svg path {
+/* .doctors-nav svg path {
 	fill: #fff;
 }
 .doctors-nav a:hover figure img {
@@ -1181,7 +1182,7 @@ img{
   background-repeat: no-repeat;
   color: #fff;
   left: -15px;
-}
+} */
 
 /*--------------------*/
 /* TESTIMONIAL */
@@ -1279,7 +1280,7 @@ img{
 /* BLOG */
 /*--------------------*/
 
-#homeBLog{
+/* #homeBLog{
 	float: left;
 	display: inline;
 	width: 100%;
@@ -1348,7 +1349,7 @@ img{
 }
 figure.blog-figure {
 	/*background: #3498db;*/
-}
+ */
 
 figure.blog-figure img {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
