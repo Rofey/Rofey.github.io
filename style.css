@@ -321,10 +321,8 @@ img{
 .slider-img{
 	float: left;
 	display: inline;
-/*	height: 100%;
-	width: 100%;*/
-	width: 1900px;
-	height: 578px;
+	height: 100%;
+	width: 100%;
 }
 .slider-img>img{
 	width: 100%;
