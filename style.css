@@ -326,6 +326,7 @@ img{
 	width: 1900px;
 	height: 578px;
 	max-width:100%;
+	max-height:100%;
 }
 .slider-img>img{
 	width: 100%;
